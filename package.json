@@ -1,0 +1,36 @@
+{
+  "name": "homebridge-homeassistant-phoenix",
+  "version": "1.0.0",
+  "description": "Homebridge plugin for Home Assistant: https://home-assistant.io",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gilmrt/homebridge-homeassistant.git"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "plugin",
+    "home-assistant",
+    "home assistant",
+    "homeassistant",
+    "home",
+    "assistant",
+    "homekit",
+    "siri"
+  ],
+  "bugs": {
+    "url": "http://github.com/gilmrt/homebridge-homeassistant/issues"
+  },
+  "engines": {
+    "node": ">=4.3.2",
+    "homebridge": ">=0.3.0"
+  },
+  "dependencies": {
+    "eventsource": "^0.2.1",
+    "request": "^2.69.0"
+  }
+}

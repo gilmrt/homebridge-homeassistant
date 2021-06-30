@@ -138,6 +138,7 @@ function HomeAssistantBinarySensorFactory(log, data, client, firmware) {
     case 'door':
     case 'garage_door':
     case 'opening':
+    case 'safety':
     case 'window':
       return new HomeAssistantBinarySensor(
         log, data, client,

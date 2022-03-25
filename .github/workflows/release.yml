@@ -31,7 +31,7 @@ jobs:
 
       - name: Install plugins
         shell: bash
-        run: npm install -D
+        run: npm install @semantic-release/git @semantic-release/changelog conventional-changelog-conventionalcommits -D
 
       - name: Release
         shell: bash
